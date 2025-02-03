@@ -1,6 +1,7 @@
 from utils.db import db
 from sqlalchemy.orm import relationship
 from sqlalchemy import Column, Integer, String, Text, Numeric, DateTime, ForeignKey
+from .Categorias import Categorias
 
 
 class Producto(db.Model):
