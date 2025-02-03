@@ -1,6 +1,6 @@
 from utils.db import db
 from services.productos import Productos
-from flask import request, jsonify
+from flask import  jsonify
 from flask import Blueprint
 
 Productos = Blueprint('Productos', __name__)
